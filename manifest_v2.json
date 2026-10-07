@@ -34,6 +34,22 @@
     }
   },
   "ext": {
-    "enableAstroBoxCreatorFeatures": true
+    "enableAstroBoxCreatorFeatures": true,
+    "bundledResources": {
+      "recommended": [
+        {
+          "type": "resource",
+          "id": "canopus_manager"
+        },
+        {
+          "type": "resource",
+          "id": "canopus_corona"
+        },
+        {
+          "type": "resource",
+          "id": "ng.lst.corona"
+        }
+      ]
+    }
   }
 }
